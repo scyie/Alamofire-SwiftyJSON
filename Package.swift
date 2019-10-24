@@ -15,9 +15,5 @@ let package = Package(
                 .Package(url: "https://github.com/SwiftyJSON/SwiftyJSON.git", Version(4,0,0)),
             ],
             path: "Sources"),
-        .testTarget(
-            name: "Alamofire-SwiftyJSONTests",
-            dependencies: ["Alamofire-SwiftyJSON"],
-            path: "Tests"),
     ]
 )
