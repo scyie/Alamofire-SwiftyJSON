@@ -13,9 +13,6 @@ let package = Package(
     targets: [
         .target(
             name: "Alamofire-SwiftyJSON",
-            dependencies: [
-                "Alamofire", 
-                "SwiftyJSON"
-            ])
+            dependencies: [])
     ]
 )
