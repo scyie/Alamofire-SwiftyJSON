@@ -7,8 +7,8 @@ let package = Package(
         .library(name: "Alamofire-SwiftyJSON", targets: ["Alamofire-SwiftyJSON"])
     ],
     dependencies: [
-        .package(url: "https://github.com/Alamofire/Alamofire.git", from: "4.9.0"),
-        .package(url: "https://github.com/SwiftyJSON/SwiftyJSON.git", from: "4.0.0"),
+        .package(url: "https://github.com/Alamofire/Alamofire", from: "4.9.0"),
+        .package(url: "https://github.com/SwiftyJSON/SwiftyJSON", from: "4.0.0"),
     ],
     targets: [
         .target(
