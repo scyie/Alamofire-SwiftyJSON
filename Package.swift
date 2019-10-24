@@ -10,10 +10,7 @@ let package = Package(
     targets: [
         .target(
             name: "Alamofire-SwiftyJSON",
-            dependencies: [
-                .Package(url: "https://github.com/Alamofire/Alamofire.git", Version(4,0)),
-                .Package(url: "https://github.com/SwiftyJSON/SwiftyJSON.git", Version(4,0,0)),
-            ],
+            dependencies: ["Alamofire", "SwiftyJSON"],
             path: "Sources"),
     ]
 )
